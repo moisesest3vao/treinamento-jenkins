@@ -31,7 +31,6 @@ class FinalizarLeilaoServiceTest {
 		MockitoAnnotations.initMocks(this);
 		this.service = new FinalizarLeilaoService(leilaoDao, enviadorDeEmails);
 	}
-
 	@Test
 	void deveriaFinalizarUmLeilao() {
 		List<Leilao> leiloes = leiloes();
